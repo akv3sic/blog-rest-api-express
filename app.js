@@ -33,8 +33,8 @@ mongoose.connect(
     process.env.DB_CONNECTION, 
 { useNewUrlParser: true,
 useUnifiedTopology: true },
-() => {console.log('conncected to DB')
+() => {console.log('Connected to DB.')
 })
 
 // Start listening
-app.listen(process.env.PORT, () => { console.log(`Running at http://localhost:${process.env.PORT}`) })
+app.listen(process.env.PORT, () => { console.log(`Running at http://localhost:${process.env.PORT}.`) })
